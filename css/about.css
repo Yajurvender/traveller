@@ -1,0 +1,113 @@
+.about{
+    padding: 5rem 0;
+}
+
+.about-heading::after{
+    content: " ";
+    display: block;
+    border: 3px solid rgb(230, 57, 70);  
+    margin-bottom: 1rem; 
+}
+
+/* -------------------------------- about-wrapper section -------------------------------- */
+
+.left ul, .right ul{
+    list-style-type: none;
+}
+
+.left{
+float: left;
+width: 50%;
+}
+
+.right{
+  float: right;
+  width: 50%;  
+}
+
+.about-wrapper{
+    overflow: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about-wrapper li::before{
+    content: "\2713";
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+
+/* ------------------------------------ count section -------------------------- */
+
+.counts{
+   overflow: auto;
+   margin-top: 2rem;
+}
+
+.count-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+
+.count-item span{
+    color: #e63946;
+    font-weight: 700;
+    
+}
+
+.count-item p{
+    font-weight: 700;
+}
+
+
+/* --------------------------------- banner --------------------------------------- */
+
+.banner{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: white;
+    overflow: auto;
+    padding: 1rem;
+    box-shadow: 0px 0px 20px 0px rgba(51, 50, 50, 0.644);
+    margin-top: 2rem;
+}
+
+.banner-left{
+ float: left;
+ width: 70%;
+}
+
+.banner-right{
+ float: right;
+ width: 30%;
+}
+
+.banner-left p{
+    margin-top: 0.8rem;
+ font-weight: 700;
+ font-size: 1.5rem;
+ text-align: center;
+}
+
+.banner-right a{
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem 4.5rem;
+    text-decoration: none;
+}
+
+.banner-right a:hover{
+    background-color: white;
+    color: #e63946;
+    border-radius: 1.5rem;
+}
+
+

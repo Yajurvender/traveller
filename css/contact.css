@@ -1,0 +1,98 @@
+.contact{
+background: #f7f7f7;
+padding: 2rem 0;
+}
+
+.contact-wrapper{
+overflow: auto;
+/* border: 1px solid red; */
+}
+
+/* ------------------------------- address ------------------------------- */
+.address{
+float: left;
+width: 49%;
+/* border: 1px solid green; */
+background: white;
+padding: 1rem;
+
+}
+
+.address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.address img{
+    width: 100%;
+}
+
+
+.address-group{
+    margin-bottom: 1.5rem;
+    
+}
+
+
+/* --------------------------------- form -------------------------------------- */
+.form{
+float: right;
+width: 49%;
+/* border: 1px solid blue; */
+background: white;
+padding: 1rem;
+}
+
+.form-group{
+margin-bottom: 2rem;
+}
+
+.form-btn{
+display: block;
+margin: 0 auto;
+padding: 0.5rem 2rem;
+font-size: 1.2rem;
+text-transform: uppercase;
+background: #e63946;
+color: white;
+outline: none;
+border: none;
+cursor: pointer;
+border-radius: 1.5rem;
+}
+
+.form h1::after{
+    content: "";
+    display: block;
+    border: 3px solid #ee4758;
+    /* width: 100%; */
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 0.3rem;
+    background:  #55555533;
+    border: none;
+}
+
+.form p{
+    margin: 1rem 0 1rem 0;
+}
+
+.form-group textarea{
+    width: 100%;
+    height: 8.9rem;
+    background:  #55555533;
+    border: none;
+}
+
+
